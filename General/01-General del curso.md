@@ -1,0 +1,26 @@
+
+  
+![270](https://usc-onenote.officeapps.live.com/o/GetImage.ashx?&WOPIsrc=https%3A%2F%2Fuccl0%2Dmy%2Esharepoint%2Ecom%2Fpersonal%2Fkaori%5Fkanno%5Fuc%5Fcl%2F%5Fvti%5Fbin%2Fwopi%2Eashx%2Ffiles%2Fbf35496453904f5d92bb8aec756c982d&access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6IjExQzdEODM0Mzg5MTBGNzVDMUFCRTYwODNEODI2N0Y3QUY0QzdBMzkiLCJ0eXAiOiJKV1QiLCJ4NXQiOiJFY2ZZTkRpUkQzWEJxLVlJUFlKbjk2OU1lamsifQ%2EeyJuYW1laWQiOiIwIy5mfG1lbWJlcnNoaXB8a2Fvcmkua2Fubm9AdWMuY2wiLCJuaWkiOiJtaWNyb3NvZnQuc2hhcmVwb2ludCIsImlzdXNlciI6InRydWUiLCJjYWNoZWtleSI6IjBoLmZ8bWVtYmVyc2hpcHwxMDAzM2ZmZmFlOTc4Y2M2QGxpdmUuY29tIiwic2hhcmluZ2lkIjoiMDAyZTQzZGEtMWVkMi1kYmY5LTY5OTgtN2Q4ZTE4YzU5MmMwIiwidXRpIjoiMUk0aTBuUnR2azZhdTFqVjc4WUtBQSIsInhtc19jYyI6IltcIkNQMVwiXSIsInhtc19zc20iOiIxIiwib2lkIjoiZTMxZTk1NjgtYWJjMi00MDEwLWFlNWQtMDJhMGRmNGU3NmY2IiwiaXNsb29wYmFjayI6IlRydWUiLCJhcHBjdHgiOiJiZjM1NDk2NDUzOTA0ZjVkOTJiYjhhZWM3NTZjOTgyZDtzVm1uTE5ZRFZ3Z25sK25RdWRBcER5V28yR2M9O0RlZmF1bHQ7OzdGRkZGRkZGRkZGQkZGRkY7VHJ1ZTs7OzE4NTE5NzI7Njk4MGZjYTEtMjBlOC1iMDAwLWU2N2EtNjdhZjAwMGE1NWJmIiwiZmlkIjoiMTkyNTE3IiwiaXNzIjoiMDAwMDAwMDMtMDAwMC0wZmYxLWNlMDAtMDAwMDAwMDAwMDAwQDkwMTQwMTIyLTg1MTYtMTFlMS04ZWZmLTQ5MzA0OTI0MDE5YiIsImF1ZCI6IndvcGkvdWNjbDAtbXkuc2hhcmVwb2ludC5jb21ANWZmNWQ5ZmEtZjgzZi00YWMxLWE0ZDItZWI0OGVhMGEwMGQyIiwibmJmIjoiMTc3MjU3NzQ3NCIsImV4cCI6IjE3NzI2MTM0NzQifQ%2EHUPuEmDXyfOYopeoxB1cmh0sMS304DOmc5uMUTicyfbOFq%5F8fU5qDKrp5keMkvoulQMK7VOy3GOc3T8FCCrBAjIzPY%5FV6ZXaFqmVCMlRFyPaAi8jaaTbhZKeib7Eaorzmg4r4ctnTQIy3CFFIKvadW7xrXP5uSQv0UIA%5FCdOV%5FKPDWBuZzrO3sIp4tDLnV589eAA7O23KIxkTpbCSPSan7s69pAczIBvwDYIdRYA1Z%5FGhEE6LnP%5F%2DSE%5FdmKfljqBBLGL31%5FAhdEZcFlzBP0VqYc6X9H5vbe2j%5FdqXi%2DjWoeWrSx7eI9oGr4VFO6mdEv3Q7m5KdgUGsE%5FfMWTYscWEQ&access_token_ttl=1772613474303&ObjectDataBlobId=%7B0e998eab-fb90-46b9-ada1-da7406264db8%7D%7B1%7D&usid=3d9cc43e-1532-2a80-d5b4-f2b73b432f66&build=16.0.19812.41007&waccluster=PUS9&wdwacuseragent=MSWACONSync)
+
+![[00-Programa.pdf]]
+
+
+![[00-Pasted image 20260305170121.png]]
+![[00-Pasted image 20260305170902.png]]
+
+
+![[00-Pasted image 20260305170245.png]]
+
+
+![[00-Planeación semanal_Fundamentos de Programación.pdf]]
+![[Pasted image 20260311142952.png]]
+
+Súper importante la asistencia!
+
+---
+
+### Sobre uso de IA:
+
+- Las solemnes serán en papel y lápiz para evitar su uso.
+- Pueden usarlo como herramienta de estudio, o para resolver ejercicios e incluso controles, pero **referenciando su uso**.
+- Les sugiero usarlo como rubber duck, pero no antes de ello.

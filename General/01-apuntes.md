@@ -1,0 +1,1 @@
+![[00-Robert W. Sebesta - Concepts of Programming Languages-Pearson (2015).pdf#page=138&rect=210,65,418,182|Robert W. Sebesta - Concepts of Programming Languages-Pearson (2015), p.135]]
