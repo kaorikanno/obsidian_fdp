@@ -44,6 +44,14 @@ Problema:
 ### ¿Cómo construir el código del algoritmo?
 
 
+- ¿Qué queremos que haga el programa?
+
+-  ¿Qué datos necesitamos?
+
+- ¿Cómo el programa podría llevar a cabo lo que queremos que haga?
+
+---
+
 - ¿Qué queremos que haga el programa? ➡️ Contexto y limitaciones y qué esperamos que sea el resultado respecto al input.
 
 -  ¿Qué datos necesitamos? ➡️ Input o sin input, qué información y dónde obtenerla.
@@ -55,10 +63,6 @@ Problema:
 Problema: calcular área de un rectángulo.
 
 Identificar datos de entrada, proceso y salida.
-
-note:
-
-Hacer un ejemplo con números primero.
 
 ---
 > [!STICKY|green right title]
@@ -109,7 +113,7 @@ Ej: ¿Cuál sería el pseudocódigo para determinar si un número es positivo o 
 
 ---
 
-¿Qué arrojaría el código anterior para los números -5, 17, 4 y 0?
+¿Qué arrojaría el código anterior para los números -5, 17, 24/3 y 0?
 
 ---
 1. Leer número
@@ -118,7 +122,7 @@ Ej: ¿Cuál sería el pseudocódigo para determinar si un número es positivo o 
 4. Si número es mayor a 0
 5.    Mostrar "positivo"
 6. Si no
-7.    Mostrar "no positivo"
+7.    Mostrar "negativo"
 
 ---
 
@@ -137,7 +141,7 @@ F -- No --> K[Mostrar no positivo]
 ---
 
 
-Problema: revisar si una persona puede votar o no.
+Problema: revisar si una persona puede votar o no. Fijarse en:
 
 - año de elecciones
 - edad
@@ -162,7 +166,6 @@ F -- False --> K[No puede votar]
 ```
 
 
-
 ---
 
 - Hacer el diagrama de flujo para "reservar la sala de estudio en biblioteca". Para ello debe cumplir con:
@@ -171,13 +174,9 @@ F -- False --> K[No puede votar]
 3. ver alternativas y elegir la primera
 4. confirmar la reserva
 
-Por último, descríbele a alguien tu código y ve si siguiendo los pasos es posible o no concretar la acción.
-
 ---
 
 Ingresar solicitud
-      ↓
-Verificar disponibilidad
       ↓
 ¿Disponible?
    /       \
@@ -276,10 +275,6 @@ numero1 = 6
 print(numero1 + numero2)
 
 ```
-
-note:
-
-La IA es muy buena par debuggear problemas de sintaxis y algunos de lógica, pero no todos.
 
 ---
 

@@ -31,32 +31,30 @@ Por último, descríbele a alguien tu código y ve si siguiendo los pasos es pos
 
 TNE:
 
-1. leer saldo actual y monto a cargar
-2. ValorDePasaje = 880
-3. sumar saldo actual y monto a cargar
-4. Si monto >= 2 * ValorDePasaje → Aprobar
-5. Si monto < 2 * ValorDePasaje → No Aprobar
+1. leer saldo actual
+2. leer monto a cargar
+3. ValorDePasaje = 880
+4. monto = saldo actual + monto a cargar
+5. Si monto >= 2 * ValorDePasaje → Aprobar
+6. Si monto < 2 * ValorDePasaje → No Aprobar
 
 ---
 
-1. Ingresar la solicitud de día y hora de la reserva
-2. mientras no se encuentre una reserva:
-3.   verificar disponibilidad de alguna sala ese día y hora
+1. mientras no se encuentre una reserva:
+2.   Ingresar la solicitud de día y hora de la reserva
+3.   leer disponibilidad de salas ese día y hora
 4.   mostrar alternativas
 5.   Si alternativas > 0 → reservar la primera
 6.   confirmar la reserva
-7.   Fin
 
 ---
 
-1. Ingresar presupuesto, precios e items
+1. leer presupuesto, precios e items
 2. crear una lista de compras
 3. recorremos los items de la lista de precios:
 4.   si precio_item < presupuesto:
 5.     presupuesto = presupuesto - precio_item
 6.     agregamos a la lista de compras el item
-7.  si precio_item > presupuesto:
-8.     saltar elemento
 
 ---
 
