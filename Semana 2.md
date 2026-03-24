@@ -388,12 +388,13 @@ Ej:
 
 ---
 
-#### Desigualdades:
+#### Operadores relacionales:
 
   
 ![465](https://usc-onenote.officeapps.live.com/o/GetImage.ashx?&WOPIsrc=https%3A%2F%2Fuccl0%2Dmy%2Esharepoint%2Ecom%2Fpersonal%2Fkaori%5Fkanno%5Fuc%5Fcl%2F%5Fvti%5Fbin%2Fwopi%2Eashx%2Ffiles%2Fbf35496453904f5d92bb8aec756c982d&access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6IjExQzdEODM0Mzg5MTBGNzVDMUFCRTYwODNEODI2N0Y3QUY0QzdBMzkiLCJ0eXAiOiJKV1QiLCJ4NXQiOiJFY2ZZTkRpUkQzWEJxLVlJUFlKbjk2OU1lamsifQ%2EeyJuYW1laWQiOiIwIy5mfG1lbWJlcnNoaXB8a2Fvcmkua2Fubm9AdWMuY2wiLCJuaWkiOiJtaWNyb3NvZnQuc2hhcmVwb2ludCIsImlzdXNlciI6InRydWUiLCJjYWNoZWtleSI6IjBoLmZ8bWVtYmVyc2hpcHwxMDAzM2ZmZmFlOTc4Y2M2QGxpdmUuY29tIiwic2hhcmluZ2lkIjoiMDAyZmEzNmEtNmY4MC0wNzkyLTMwMTctODk3Y2ZjMWExZDdlIiwidXRpIjoiN1JxaFd1MVI5azZOdFY4Q2tFTWhBQSIsInhtc19jYyI6IltcIkNQMVwiXSIsInhtc19zc20iOiIxIiwib2lkIjoiZTMxZTk1NjgtYWJjMi00MDEwLWFlNWQtMDJhMGRmNGU3NmY2IiwiaXNsb29wYmFjayI6IlRydWUiLCJhcHBjdHgiOiJiZjM1NDk2NDUzOTA0ZjVkOTJiYjhhZWM3NTZjOTgyZDtzVm1uTE5ZRFZ3Z25sK25RdWRBcER5V28yR2M9O0RlZmF1bHQ7OzdGRkZGRkZGRkZGQkZGRkY7VHJ1ZTs7OzE4NTE5NzI7NzE1YmZmYTEtNzA0ZS1jMDAwLTEyYjUtZWZhMjRhYjdlZGZlIiwiZmlkIjoiMTkyNTE3IiwiaXNzIjoiMDAwMDAwMDMtMDAwMC0wZmYxLWNlMDAtMDAwMDAwMDAwMDAwQDkwMTQwMTIyLTg1MTYtMTFlMS04ZWZmLTQ5MzA0OTI0MDE5YiIsImF1ZCI6IndvcGkvdWNjbDAtbXkuc2hhcmVwb2ludC5jb21ANWZmNWQ5ZmEtZjgzZi00YWMxLWE0ZDItZWI0OGVhMGEwMGQyIiwibmJmIjoiMTc3MzM0NDAxMyIsImV4cCI6IjE3NzMzODAwMTMifQ%2EFQjB3nO0TuOSd1rWvOJPlIY9GjedNU0ANDoBcg5x7TwdAG1r2fGIHMCbAaT8LDW0SBmeef%2D%2DXK%5F6r2lZsq5wA%2DZaEOU7ylc3uRi3bvTA43iJVU9M8Ap%5FCWOR4u7A0bXYJ6ZIWL5tvMHppH%5FtQLUPZ8JoDasKpEzV%5FSKMNwIitgh7XeLl%5Femi%2DBt8fvfb6putJ0PLHZKRLkJnf%2DIFhX3QAaNbpLFAq5hJ%5FzxUqCO9ihxZOoHbAhW8XtULuzX3iaY%5FXCHiTgdWGlKkmga53LHGa7fk1m0VbFTpD%2DbpAIYwGghi8QLC8tppo8V7089kB%5Fye%5F3IJ%2DhTB%5FSGQjLqpFKuLig&access_token_ttl=1773380013715&ObjectDataBlobId=%7B97f67df8-4ede-4588-8845-2006d661c547%7D%7B1%7D&usid=39dbc019-1a2e-e0e7-8f91-11734345b8ad&build=16.0.19906.41003&waccluster=PUS8&wdwacuseragent=MSWACONSync)
 
 ---
+
 Ej:
 
 > Mostrar el número mayor entre dos dígitos a y b
@@ -410,17 +411,16 @@ b = 6
 ---
 
 ``` python
-a = 5
-b = 6
+a = 7
+b = 7
 
 if a > b:
    print(a)
-else:
+elif b > a:
    print(b)
+else:
+   print("son iguales")
 ```
-
-note:
-¿Qué pasa si valen lo mismo a y b?
 
 ---
 

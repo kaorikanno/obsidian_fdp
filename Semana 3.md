@@ -13,44 +13,42 @@
 
 - [ ] Estrategias de resolución: casos, escenarios, requisitos. 
 - [ ] Diagrama de flujo y pseudocódigo.
-- [ ] Terminar pensamiento computacional
+- [ ] Terminar pensamiento computacional.
 
 ---
 
-¿Nos quitará el trabajo la IA? Yo creo que no
+## Sobre la solemne 1
+
 
 ---
 
 
 Problema:
 
-> Generen un algoritmo que elija los números mayores a 5 de la siguiente lista $[1, 5, 7, 4, 10, 15, 2]$
+> Generen un algoritmo que muestre los números mayores a 5 de la siguiente lista $[1, 5, 7, 4, 10, 15, 2]$
 
 
 ---
 
 1. Leemos la lista
-2. for numero en lista
-3. if numero > 5:
+2. Para cada numero en la lista
+3. si numero > 5:
 4.   mostrar numero
-5. else: saltar numero
+5. Sino: saltar numero
 
 ---
 
-note:
-
-ver soluciones de ejercicios de la clase pasada
+[[Semana 2 ej]]
 
 ---
-
 ### ¿Cómo construir el código del algoritmo?
 
 
 - ¿Qué queremos que haga el programa? ➡️ Contexto y limitaciones y qué esperamos que sea el resultado respecto al input.
 
--  <!-- .element: class="fragment" -->¿Qué datos necesitamos? ➡️ Input o sin input, qué información y dónde obtenerla.
+-  ¿Qué datos necesitamos? ➡️ Input o sin input, qué información y dónde obtenerla.
 
-- <!-- .element: class="fragment" -->¿Cómo el programa podría llevar a cabo lo que queremos que haga? ➡️ orden de las acciones, lógica de los pasos, cómo pasar de la información de entrada a la de salida.
+- ¿Cómo el programa podría llevar a cabo lo que queremos que haga? ➡️ orden de las acciones, lógica de los pasos, cómo pasar de la información de entrada a la de salida.
 
 ---
 
@@ -88,24 +86,11 @@ Identificar datos de entrada, proceso y salida.
 | - N1<br>- N2<br>- N3 | - N_total = N1 + N2 + N3<br>- División =  $N\_total/3$<br>- analizar si "División" es mayor o menor a 4.0 | - Aprobado o reprobado |
 
 ---
+#### Variables:
 
-Cuando hacemos 
+Cuando hacemos N1 = 6.5 o  N_total = N1 + N2 + N3, lo que hacemos es nombrar variables.
 
-N1 = 6.5
-
-o
-
- N_total = N1 + N2 + N3
-
-Lo que hacemos es asignar **variables**.
-
----
-
-Es como cuando en matemáticas o físicas designamos un valor x = 5 o $\pi = 3, 1415\dots$.
-
-note:
-
-Las veremos con más profundidad más adelante, pero por ahora considérenlas los nombres para simplificar el valor que le asignamos.
+Es similar a en matemáticas o física cuando decimos que x = 5.
 
 ---
 #### Representación de un algoritmo
@@ -149,6 +134,33 @@ F -- No --> K[Mostrar no positivo]
 
 ```
 
+---
+
+
+Problema: revisar si una persona puede votar o no.
+
+- año de elecciones
+- edad
+
+---
+
+| Entrada:                      | Proceso:                                            | Salida             |
+| ----------------------------- | --------------------------------------------------- | ------------------ |
+| - edad<br>- año de elecciones | - revisar si es año de elecciones<br>- revisar edad | - puede votar o no |
+
+---
+
+```mermaid
+graph TD
+A[leer edad y año] --> B{¿año de elecciones?}
+B --> D[True]
+B --> E[False]
+D --> F{¿edad > 18?}
+E --> G[No puede votar]
+F -- True --> J[Puede votar]
+F -- False --> K[No puede votar]
+```
+
 
 
 ---
@@ -158,13 +170,8 @@ F -- No --> K[Mostrar no positivo]
 2. verificar disponibilidad
 3. ver alternativas y elegir la primera
 4. confirmar la reserva
-5. incluir un bucle de búsqueda de horarios si no hay disponibilidad en el horario.
 
 Por último, descríbele a alguien tu código y ve si siguiendo los pasos es posible o no concretar la acción.
-
-note:
-
-darles tiempo para hacerlo
 
 ---
 
@@ -179,8 +186,7 @@ Verificar disponibilidad
 Confirmar   Mostrar alternativas
  reserva        ↓
         Elegir horario
-            ↓
-        (volver a verificar)
+
 
 ---
 
@@ -221,6 +227,15 @@ Cantidad de horas que los dueños anteriores estaban en casa.
 
 ---
 
+- Piensa en el proceso de "comprar desayuno en el kiosko del campus".
+
+1. Lista al menos 6 pasos del proceso (cómo dividirías la tarea). 
+2. Analiza si estás omitiendo algún detalle relevante o si estás incorporando detalles irrelevantes sin darte cuenta (vamos a analizar el nivel de abstracción de nuestra solución).
+3. Identifica los patrones (¿Qué se repetiría si eliges una opción del menú u otra?)
+4. Redacta el algoritmo del proceso.
+
+---
+
 ### Debugging
 
 El debbugging es probar el código, encontrar errores en la **lógica** o en el **código**.
@@ -250,7 +265,7 @@ promedio = (nota1 + nota2) / 2
 
 Esto sería un error de lógica, el programa hace lo que le pedimos que haga, pero eso no es lo que queríamos que hiciese.
 
-<!-- .element: class="fragment" --> Un error de código sería uno que no permita que el código se ejecute. Ej:
+ Un error de código sería uno que no permita que el código se ejecute. Ej: <!-- .element: class="fragment" -->
 
 ---
 
@@ -286,10 +301,6 @@ solución
 
 
 ---
-![[Pasted image 20260313111213.png]]
-
-
----
 ## Objetivos:
 
 - [ ] Estrategias de resolución: casos, escenarios, requisitos. 
@@ -299,10 +310,14 @@ solución
 ---
 ### Tareas: 
 
-- 
-![[Pasted image 20260312172644.png]]
-
-
-
+- Escribe el pseudocódigo para comparar emisiones de bus vs auto compartido. y decidir cuál opción ocupar.
+1. Piensa en los factores como kilómetros recorridos, y emisión de cada tipo de vehículo (no necesitas investigar cuánto emite cada tipo de vehículo, inventa un número).
+2. Genera la matriz IPO y el seudocódigo de esto.
 
 ---
+
+- Verifica la lógica desk-check del pseudocódigo anterior. 
+1. Construye una tabla de trazas con 3 juegos de datos, una donde el auto genere más emisiones, otra donde el bus genere más emisiones y otra donde generen la misma cantidad de emisiones por km. 
+
+---
+[[Semana 3 ej]]

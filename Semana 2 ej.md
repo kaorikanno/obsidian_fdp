@@ -33,7 +33,7 @@ TNE:
 
 1. leer saldo actual y monto a cargar
 2. ValorDePasaje = 880
-3. sumar ambos montos
+3. sumar saldo actual y monto a cargar
 4. Si monto >= 2 * ValorDePasaje → Aprobar
 5. Si monto < 2 * ValorDePasaje → No Aprobar
 
