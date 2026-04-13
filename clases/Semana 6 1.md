@@ -64,21 +64,6 @@ print("Hello World")
 
 ---
 
-Leer edad
-Si edad > 18 entonces
-    Mostrar "adulto"
-
----
-
-```python
-edad = 15
-if edad > 18:
-    print("es adulto")
-else:
-    print("es menor")
-```
----
-
 Estamos logrando lo mismo que con pseudocódigo, pero con una sintaxis definida.
 
 ---
@@ -105,7 +90,8 @@ Intenten ahora ustedes escribir esto:
 
 ```python
 
-"Hello World"
+print("Hello World")
+
 ```
 
 Y ejecuten su código.
@@ -132,14 +118,6 @@ Nuestro algoritmo anterior recibió un input y generó un output a partir de ell
 ¿Cómo harían un algoritmo que recoja su edad y les diga que el próximo año tendrán 1 año más?
 
 ---
-
-```python
-edad = int(input("Edad: "))
-edad_futura = edad + 1
-print("El próximo año tendrás", edad_futura)
-```
-
----
 ### Debuggeo
 
 Uno puede entonces cometer errores ortográficos o gramaticales (de sintaxis) o errores de lógica.
@@ -148,7 +126,7 @@ Uno puede entonces cometer errores ortográficos o gramaticales (de sintaxis) o 
 
 nota1 = 7.0
 nota2 = 6.0
-promedio = (nota1 + nota2) / 2
+promedio = nota1 + nota2 / 2
 print(promedio)
 
 ```
@@ -168,17 +146,6 @@ El proceso de verificación implica tres tareas:
 - Prueba con datos no convencionales: Ej: edad, 105 años.
 - Prueba con datos no válidos: Ej: edad, -20 años o ventite años.
 
----
-
-```python
-edad = "veinte"
-edad_futura = edad + 1
-print(edad_futura)
-if edad < 0:
-   print("no válido")
-else:
-   print("El próximo año tendrás", edad_futura)
-```
 ---
 Algo que podría ser útil para debuggear es analizar línea por línea el código: https://pythontutor.com/visualize.html#mode=edit
 

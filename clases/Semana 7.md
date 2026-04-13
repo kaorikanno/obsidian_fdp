@@ -26,6 +26,9 @@ Para usar jupyter:
 -> Ctrl + shift + P
 -> Create: New jupyter notebook
 
+---
+
+Se puede usar también google colab
 
 
 ---
