@@ -105,7 +105,7 @@ Intenten ahora ustedes escribir esto:
 
 ```python
 
-"Hello World"
+print("Hello World")
 ```
 
 Y ejecuten su código.
@@ -243,13 +243,13 @@ Ej:
 
 ---
 
-El python:
+En python:
 
 ```python
 # Válido 
 _variable = 10 
-vari_able = 20 
-variable10 = 30 
+vari_able = 20*10 
+variable10 = 30/3 
 variable = 60 
 variaBle = 10 
 

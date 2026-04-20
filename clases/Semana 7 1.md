@@ -70,7 +70,7 @@ a = 1
 b = -42
 c = 1000
 
-print(c + 2)
+print(a + 2)
 ```
 
 ---
@@ -106,13 +106,6 @@ print("El próximo año tendrás", edad_futura)
 
 ---
 
-``` python
-edad = "20"
-print(edad)
-```
-
----
-
 ### Punto flotante
 
 Este es el tipo de datos decimal. Ej:
@@ -131,10 +124,10 @@ Ej:
 
 ``` python
 a = 20
-b = 1.0
+b = 0.5
 suma = a + b
 
-print(type(suma))
+print(suma)
 ```
 ---
 
@@ -155,7 +148,7 @@ print(type(suma))
 
 a = 12
 b = 4.0
-division = int(a/b)
+division = a/b
 print(division)
 print(type(division))
 ```
@@ -172,21 +165,12 @@ Calculen el 70% de un número que el usuario introduzca. Ej:
 
 ---
 
-```python
-numero = int(input())
-
-resultado = numero * 0.7
-print(resultado)
-
-```
----
-
 Se puede usar también para notación científica:
 
 
 ```python
 
-f = 1.93e-3 # = 1.93*10^-3
+f = 1.93e-3
 print(f)
 ```
 
@@ -201,16 +185,6 @@ Escriban en este formato los números:
 - 5,25 * 10 ^4
 
 Y sumen los valores.
-
----
-
-```python
-f1 = 1e-2
-f2 = 2e3
-f3 = 5.25e4
-
-print(f1 + f2+ f3)
-```
 
 ---
 
@@ -247,11 +221,11 @@ else:
 O podemos convertir valores a booleanos:
 
 ```python
-print(bool(3))      # True
+print(bool(1))      # True
 print(bool(0))      # False
 ```
 ```python
-print(bool("alooo")) # True
+print(bool("Hola")) # True
 print(bool(""))     # False
 ```
 ```python
@@ -294,8 +268,8 @@ lista_supermercado = $[leche, azucar, miel, galletas, te, cafe, jugo]$
 ---
 
 ```python
-lista = list("holaaaa")
-# lista = [1, "Hola", 3.67, [1, 2, 3]]
+lista = list("1234")
+lista = [1, "Hola", 3.67, [1, 2, 3]]
 print(lista)
 
 ```
@@ -324,7 +298,7 @@ Ej:
 
 ```python
 s = "Hola! Yo soy un string c:" 
-print(s) 
+print(s) #Esto es una cadena 
 print(type(s)) #<class 'str'>
 ```
 
@@ -397,13 +371,9 @@ Hola, mi nombre es Juanito Pérez, soy hombre de 20 años, es un placer conocerl
 Otra manera de realizar lo mismo es con .format():
 
 ```python
-nombre = "Juanito Pérez"
-genero = "hombre"
-edad = 20
-s = "Hola, mi nombre es {}, soy {} de {} años, es un placer conocerles!".format(nombre, genero, edad) 
+s = "Los números son {} y {}".format(5, 10) 
 print(s)
 ```
-
 
 ---
 
@@ -446,15 +416,6 @@ Genera una cadena que sume ambos strings para generar una sola cadena con ambas.
 
 ---
 
-```python
-cadena1 = "Hola, soy una primera cadena"
-cadena2 = "Hola"
-cadena3 = cadena1 + cadena2*3
-print(cadena3)
-```
-
----
-
 Se puede también ver si una cadena está dentro de otra:
 
 ``` python
@@ -478,16 +439,6 @@ Ej:
 ---
 
 Haz un código que le pida al usuario su nombre y que le retorne el largo de su nombre.
-
----
-
-```python
-nombre = input("Ingresa tu nombre: ")
-
-largo = len(nombre)
-
-print("Tu nombre tiene", largo, "caracteres")
-```
 
 ---
 
@@ -545,6 +496,7 @@ cadena1 = "Hola, soy una primera cadena"
 subcadena1 = cadena1[0::2]
 print(subcadena1)
 ```
+
 ---
 
 ### Métodos en cadenas:
@@ -730,8 +682,8 @@ compras = 3000
 ---
 ### operaciones con strings...
 
-- Generar un código que reciba como input del usuario su contraseña y revise que cumpla un mínimo de caracteres, que tenga al menos un caracter especial (ej: @, -, etc), y un número.
-- Un código que reciba el nombre completo de una persona, y sin importar cómo lo escribió, devuelva el nombre con la primera letra de cada palabra en mayúscula y el resto en minúscula (ej: gerard way -> Gerard Way).
+- Generar un código que reciba como input del usuario su contraseña y revise que cumpla un mínimo de caracteres, que tenga al menos un caracter especial (ej: @, -, etc), una mayúscula y un número.
+- Un código que reciba el nombre completo de una persona, y sin importar cómo lo escribió, devuelva el nombre con la primera letra de cada palabra en mayúscula (ej: gerard way -> Gerard Way).
 - Haz un código que busque cada vez que se menciona a una persona en un tweet, ej: extraer cada mención al usuario @DonaldTrump en una frase twiteada.
 
 ---

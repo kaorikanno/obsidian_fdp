@@ -25,3 +25,5 @@ A futuro:
 
 No mostrar bucles ni booleanos ni nada, solo condicionales al inicio. La semana 1 recortarla, solo introducir las ideas del pensamiento computacional y dejarlo hasta lo que es la descomposición de problemas, hacer los ejemplos de instrucciones muy muy claras con énfasis. La semana 2 queda entonces como el resto de la semana 1, la semana 3 queda tal cual y en la semana 4 pasar condicionales, abstracción y otros términos fancys.
 
+Empezar explicando bien qué son las entradas y las salidas, ponerles más ejemplos y hacer que hagan más ejercicios de entradas y salidas.
+
