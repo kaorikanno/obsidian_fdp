@@ -27,16 +27,6 @@
 | //       | Cociente       | x//y    |
 
 ---
-
-```python
-x = 15
-y = 6
-
-print(x/y, x//y, x%y)
-
-```
-
----
 Ejercicio:
 
 Generen un algoritmo que verifique si un número es entero o float, que indique si es par o impar, si es múltiplo de 3 o no, y genere una frase con las respuestas. Ej:
@@ -45,39 +35,12 @@ Generen un algoritmo que verifique si un número es entero o float, que indique 
 
 ---
 
-
-
-
-
-```python
-numero = 50
-clase = type(numero)
-if numero%2 == 0:
-    paridad = "par"
-else:
-    paridad = "impar"
-if numero%3 == 0:
-    divisor = "múltiplo de 3"
-else:
-    divisor = "no múltiplo de 3"
-    
-print(numero, "es un número", clase, ", ", paridad, ",", divisor)
-
-```
-
----
-
 Se sigue la misma precedencia que las calculadoras y PAPOMUDAS. Es decir:
 
 - ()
 - **
-- * ,/,  //, %
+- *,/,  //, %
 - +, -
-
----
-
-kahoot 1 - 3
-
 
 ---
 
@@ -98,17 +61,7 @@ Creen un algoritmo que reciba dos números y retorne si uno es mayor o menor. Ej
 
 x = 2, y = 3
 
-x es menor que y.
-
----
-``` python
-numero1 = 2
-numero2 = 3
-if numero1 > numero2:
-   print(numero1, "es mayor a", numero2)
-else:
-   print(numero1, "es menor a", numero2)
-```
+x es menor que 3.
 
 ---
 
@@ -124,31 +77,17 @@ Nos permiten relacionar diferentes afirmaciones o elementos entre sí:
 
 ---
 
-
-
-Ej:
-
-- Muestra "True" si el número NO es positivo. 
-- Si una persona tiene más 18 años Y es año de votaciones, puede votar.
-- Si el promedio NO es mayor a 4, reprueba.
-- Si el cliente es premium Y compró más de $10.000, tiene descuento.
-- Si la clave es correcta Y el correo también, que pueda iniciar sesión.
-- Puede entrar al cine si tiene más de 16 años, O si tiene más de 12 Y viene acompañado.
-
----
-
 - and revisa si tanto lo de la izquierda y derecha son ciertos o se cumplen
 - or revisa si al menos uno es cierto
 - not revisa que no se cumpla
 
 ---
 
-
 Ej: Un código que revise cómo abrigarme. Si está lloviendo, me pondré una chaqueta de agua, si no está lloviendo, pero hace frío, me pondré un chaleco. Si no hace frío y no llueve, no me abrigaré:
 
 ```python
-lloviendo = False
-frio = False
+lloviendo = True
+frio = True
 
 if lloviendo:
     print("Me pondré la chaqueta de agua")
@@ -158,31 +97,6 @@ else:
     print("No me abrigaré")
 
 ```
-
----
-
-Ej:
-
-``` python
-n = 29
-  
-if n >= 10 and n <= 20:  
-	print("Está en el rango")
-```
-
----
-
-¿Qué está mal aquí?
-
-```python
-if n < 0 or n > 100:  
-	print("Error")
-```
-
----
-
-kahoot 4 - 8
-
 
 ---
 

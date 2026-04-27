@@ -400,7 +400,7 @@ Otra manera de realizar lo mismo es con .format():
 nombre = "Juanito Pérez"
 genero = "hombre"
 edad = 20
-s = "Hola, mi nombre es {}, soy {} de {} años, es un placer conocerles!".format(nombre, genero, edad) 
+s = "Hola, mi nombre es {}, soy {} de {} años, es un placer conocerles!".format(genero, nombre, edad) 
 print(s)
 ```
 
@@ -448,8 +448,8 @@ Genera una cadena que sume ambos strings para generar una sola cadena con ambas.
 
 ```python
 cadena1 = "Hola, soy una primera cadena"
-cadena2 = "Hola"
-cadena3 = cadena1 + cadena2*3
+cadena2 = "Holi   "
+cadena3 = cadena1 + cadena2
 print(cadena3)
 ```
 
@@ -513,11 +513,21 @@ Haz un código que le pida al usuario ingresar su nombre y le retorne su inicial
 
 ---
 
+Se puede ver si los caracteres están en mayúsculas en la palabra:
+
+``` python
+texto = "HOLA"
+todo_mayus = texto.isupper()
+print(todo_mayus)  # Resultado: True
+```
+
+---
+
 Podemos también crear subcadenas a partir de la primera, ej:
 
 ```python
 cadena1 = "Hola, soy una primera cadena"
-subcadena1 = cadena1[0:4]
+subcadena1 = cadena1[0:5]
 print(subcadena1)
 ```
 Esta parte en el índice 0 y llega al tercero.
@@ -530,7 +540,7 @@ Esta parte en el índice 0 y llega al tercero.
 
 ```python
 cadena1 = "Hola, soy una primera cadena"
-subcadena1 = cadena1[0:10:2]
+subcadena1 = cadena1[0:10:3]
 print(subcadena1)
 ```
 
@@ -593,13 +603,14 @@ Permite contar las veces que una cadena está dentro de otra.
 
 
 ```python
-s = "Mi cadena" 
+s = "Mi cadena Mi" 
 print(s.count("Mi"))
 ```
 ---
 ##### isalnum()
 
-Devuelve True si la cadena está formada solo por números, False en lo contrario.
+Devuelve True si la cadena está formada so
+lo por números, False en lo contrario.
 
 ```python
 s = "mi.correo1234" 
@@ -626,7 +637,7 @@ print(s.isalpha())
 ```
 
 ```python
-s = "mi.correo" 
+s = "micorreo" 
 print(s.isalnum())
 ```
 
@@ -665,7 +676,7 @@ print(s.zfill(20))
 Toma una cadena y una lista, y une entremedio la cadena entre la lista:
 
 ```python
-s = " , ".join(["1", "2", "3", "..." ])
+s = ",".join(["1", "2", "3", "..." ])
 print(s)
 ```
 ---
@@ -713,6 +724,7 @@ entero_x = int(x)
 print(type(entero_x))
 ```
 
+---
 
 Al python ser de tipado dinámico, podemos reasignarle los valores a las variables como otros tipos distintos:
 
@@ -730,7 +742,6 @@ compras = 3000
 ---
 ### operaciones con strings...
 
-- Generar un código que reciba como input del usuario su contraseña y revise que cumpla un mínimo de caracteres, que tenga al menos un caracter especial (ej: @, -, etc), y un número.
 - Un código que reciba el nombre completo de una persona, y sin importar cómo lo escribió, devuelva el nombre con la primera letra de cada palabra en mayúscula y el resto en minúscula (ej: gerard way -> Gerard Way).
 - Haz un código que busque cada vez que se menciona a una persona en un tweet, ej: extraer cada mención al usuario @DonaldTrump en una frase twiteada.
 

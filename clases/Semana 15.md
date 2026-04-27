@@ -1,0 +1,1 @@
+Parámetros y retorno ▪ Paso de parámetros. ▪ Funciones puras e impuras. ▪ Diseño modular. Resultado de aprendizaje: Aplicar distintos mecanismos de paso de parámetros y retorno, distinguiendo entre variables locales y globales usando Python.

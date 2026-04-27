@@ -1,0 +1,1 @@
+Integración y Solemne 3 ▪ Integración general Unidad III. ▪ Solemne 3 (viernes 03 de julio, 17:30-18:50) Resultado de aprendizaje: Integrar todos los elementos de la Unidad III mediante el desarrollo de programas modulares con estructuras de datos y funciones interrelacionadas en Python.

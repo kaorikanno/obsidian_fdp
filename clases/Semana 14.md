@@ -1,0 +1,1 @@
+Funciones ▪ Definición de funciones. ▪ Ámbito, variables locales y globales. ▪ Buenas prácticas. Resultado de aprendizaje: Definir funciones correctamente estructuradas aplicando modularidad, reutilización del código y separación de responsabilidades a través de Python.
